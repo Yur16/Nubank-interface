@@ -1,8 +1,9 @@
 import React from 'react';
+import Icon from 'react-native-vector-icons/MaterialIcons';
+
 
 import { Container, TabsContainer, TabItem, TabText } from './styles';
 
-import Icon from 'react-native-vector-icons/MaterialIcons';
 
 export default function Tabs() {
 	return (
