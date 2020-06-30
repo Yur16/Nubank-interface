@@ -1,8 +1,9 @@
 import React from 'react';
 
 import Icon from 'react-native-vector-icons/MaterialIcons';
+import QRCode from 'react-native-vector-icons/AntDesign';
 
-import { Container, Nav, NavItem, NavText, SignOutButton, SignOutButtonText } from './styles.js';
+import { Container, Code, Nav, NavItem, NavText, SignOutButton, SignOutButtonText } from './styles.js';
 
 export default function Menu({ translateY }){
 	return(
@@ -11,7 +12,11 @@ export default function Menu({ translateY }){
 				inputRange: [0, 150],
 				outputRange: [0, 1],
 			}),
-		}}> 
+		}}>
+
+			<Code>
+				<QRCode name="qrcode" size={90} color="#8b10ae" />
+			</Code> 
 
 			<Nav>
 				<NavItem>   

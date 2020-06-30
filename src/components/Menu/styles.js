@@ -7,6 +7,11 @@ export const Container = styled(Animated.ScrollView).attrs({
 	margin: 0 30px;
 `;
 
+export const Code = styled.View`
+	background: #fff;
+	padding: 0;
+`;
+
 export const Nav = styled.View`
 	margin-top: 30px;
 	align-self: stretch;
